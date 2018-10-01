@@ -1,0 +1,22 @@
+[13:25:10] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[13:25:10] [Server thread/INFO]: Loading properties
+[13:25:10] [Server thread/INFO]: Default game type: SURVIVAL
+[13:25:10] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-3d850ec-809c399 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[13:25:11] [Server thread/INFO]: Debug logging is disabled
+[13:25:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:25:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:25:11] [Server thread/INFO]: Generating keypair
+[13:25:11] [Server thread/INFO]: Starting Minecraft server on localhost:77777
+[13:25:11] [Server thread/INFO]: Using default channel type
+[13:25:11] [Server thread/ERROR]: Encountered an unexpected exception
+java.lang.IllegalArgumentException: port out of range:77777
+	at java.net.InetSocketAddress.checkPort(Unknown Source) ~[?:?]
+	at java.net.InetSocketAddress.<init>(Unknown Source) ~[?:?]
+	at io.netty.bootstrap.AbstractBootstrap.localAddress(AbstractBootstrap.java:163) ~[server.jar:git-Spigot-3d850ec-809c399]
+	at net.minecraft.server.v1_12_R1.ServerConnection.a(ServerConnection.java:101) ~[server.jar:git-Spigot-3d850ec-809c399]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.init(DedicatedServer.java:194) ~[server.jar:git-Spigot-3d850ec-809c399]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:545) [server.jar:git-Spigot-3d850ec-809c399]
+	at java.lang.Thread.run(Unknown Source) [?:?]
+[13:25:11] [Server thread/ERROR]: This crash report has been saved to: C:\Users\fodor\source\repos\Chi\Chi\bin\Debug\netcoreapp2.0\bot\minecraft\versions\spigot-1.12.2\.\crash-reports\crash-2018-04-02_13.25.11-server.txt
+[13:25:11] [Server thread/INFO]: Stopping server
+[13:25:11] [Server thread/INFO]: Saving players
